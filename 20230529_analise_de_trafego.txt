@@ -1,0 +1,173 @@
+No.     Time           Source                Destination           Protocol Length Info
+   3140 343.273033107  192.168.97.170        192.168.97.2          IPv4     1514   Fragmented IP protocol (proto=ICMP 1, off=0, ID=646c) [Reassembled in #3142]
+
+Frame 3140: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59), Dst: Routerbo_72:69:d9 (18:fd:74:72:69:d9)
+Internet Protocol Version 4, Src: 192.168.97.170, Dst: 192.168.97.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1500
+    Identification: 0x646c (25708)
+    001. .... = Flags: 0x1, More fragments
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..1. .... = More fragments: Set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0xacb7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.170
+    Destination Address: 192.168.97.2
+    [Reassembled IPv4 in frame: 3142]
+Data (1480 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+   3141 343.273055617  192.168.97.170        192.168.97.2          IPv4     1514   Fragmented IP protocol (proto=ICMP 1, off=1480, ID=646c) [Reassembled in #3142]
+
+Frame 3141: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59), Dst: Routerbo_72:69:d9 (18:fd:74:72:69:d9)
+Internet Protocol Version 4, Src: 192.168.97.170, Dst: 192.168.97.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1500
+    Identification: 0x646c (25708)
+    001. .... = Flags: 0x1, More fragments
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..1. .... = More fragments: Set
+    ...0 0000 1011 1001 = Fragment Offset: 1480
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0xabfe [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.170
+    Destination Address: 192.168.97.2
+    [Reassembled IPv4 in frame: 3142]
+Data (1480 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+   3142 343.273058710  192.168.97.170        192.168.97.2          ICMP     582    Echo (ping) request  id=0x0002, seq=1/256, ttl=64 (reply in 3145)
+
+Frame 3142: 582 bytes on wire (4656 bits), 582 bytes captured (4656 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59), Dst: Routerbo_72:69:d9 (18:fd:74:72:69:d9)
+Internet Protocol Version 4, Src: 192.168.97.170, Dst: 192.168.97.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 568
+    Identification: 0x646c (25708)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0001 0111 0010 = Fragment Offset: 2960
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0xcee9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.170
+    Destination Address: 192.168.97.2
+    [3 IPv4 Fragments (3508 bytes): #3140(1480), #3141(1480), #3142(548)]
+        [Frame: 3140, payload: 0-1479 (1480 bytes)]
+        [Frame: 3141, payload: 1480-2959 (1480 bytes)]
+        [Frame: 3142, payload: 2960-3507 (548 bytes)]
+        [Fragment count: 3]
+        [Reassembled IPv4 length: 3508]
+        [Reassembled IPv4 data: 08009b5e00020001b7da746400000000ed610d0000000000101112131415161718191a1b…]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+   3143 343.280507076  192.168.97.2          192.168.97.170        IPv4     1514   Fragmented IP protocol (proto=ICMP 1, off=0, ID=133d) [Reassembled in #3145]
+
+Frame 3143: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface wlp3s0, id 0
+Ethernet II, Src: Routerbo_72:69:d9 (18:fd:74:72:69:d9), Dst: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59)
+Internet Protocol Version 4, Src: 192.168.97.2, Dst: 192.168.97.170
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1500
+    Identification: 0x133d (4925)
+    001. .... = Flags: 0x1, More fragments
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..1. .... = More fragments: Set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0xfde6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.2
+    Destination Address: 192.168.97.170
+    [Reassembled IPv4 in frame: 3145]
+Data (1480 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+   3144 343.280507371  192.168.97.2          192.168.97.170        IPv4     1514   Fragmented IP protocol (proto=ICMP 1, off=1480, ID=133d) [Reassembled in #3145]
+
+Frame 3144: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface wlp3s0, id 0
+Ethernet II, Src: Routerbo_72:69:d9 (18:fd:74:72:69:d9), Dst: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59)
+Internet Protocol Version 4, Src: 192.168.97.2, Dst: 192.168.97.170
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1500
+    Identification: 0x133d (4925)
+    001. .... = Flags: 0x1, More fragments
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..1. .... = More fragments: Set
+    ...0 0000 1011 1001 = Fragment Offset: 1480
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0xfd2d [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.2
+    Destination Address: 192.168.97.170
+    [Reassembled IPv4 in frame: 3145]
+Data (1480 bytes)
+
+No.     Time           Source                Destination           Protocol Length Info
+   3145 343.280507415  192.168.97.2          192.168.97.170        ICMP     582    Echo (ping) reply    id=0x0002, seq=1/256, ttl=64 (request in 3142)
+
+Frame 3145: 582 bytes on wire (4656 bits), 582 bytes captured (4656 bits) on interface wlp3s0, id 0
+Ethernet II, Src: Routerbo_72:69:d9 (18:fd:74:72:69:d9), Dst: IntelCor_33:f5:59 (5c:c5:d4:33:f5:59)
+Internet Protocol Version 4, Src: 192.168.97.2, Dst: 192.168.97.170
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 568
+    Identification: 0x133d (4925)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0001 0111 0010 = Fragment Offset: 2960
+    Time to Live: 64
+    Protocol: ICMP (1)
+    Header Checksum: 0x2019 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.97.2
+    Destination Address: 192.168.97.170
+    [3 IPv4 Fragments (3508 bytes): #3143(1480), #3144(1480), #3145(548)]
+        [Frame: 3143, payload: 0-1479 (1480 bytes)]
+        [Frame: 3144, payload: 1480-2959 (1480 bytes)]
+        [Frame: 3145, payload: 2960-3507 (548 bytes)]
+        [Fragment count: 3]
+        [Reassembled IPv4 length: 3508]
+        [Reassembled IPv4 data: 0000a35e00020001b7da746400000000ed610d0000000000101112131415161718191a1b…]
+Internet Control Message Protocol
